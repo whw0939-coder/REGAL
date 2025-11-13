@@ -1354,6 +1354,12 @@ if __name__ == "__main__":
             "vul_lines": None,
             "w2v_path": "./dataset/Reveal/W2V/Reveal-128-20.wordvectors",
         },
+        "Location": {
+            "c_dir": "./Location/c/",
+            "js_dir": "./Location/js/",
+            "vul_lines": None,
+            "w2v_path": "./Location/Location-128-20.wordvectors",
+        },
     }
 
     parser = argparse.ArgumentParser(description="Preprocess base or perturbed datasets")

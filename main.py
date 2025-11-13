@@ -57,7 +57,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--gpus', type=int, nargs='+', help='List of GPU indices to use')
     parser.add_argument('--data_path', type=str, default="devign.pkl")
-    parser.add_argument('--batch_size', type=int, default=5)
+    parser.add_argument('--batch_size', type=int, default=16)
     parser.add_argument('--max_epochs', type=int, default=50)
     parser.add_argument('--cls_model_path', type=str, default=None,
                         help='If set, test all checkpoints under this directory and exit')
